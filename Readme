@@ -1,0 +1,28 @@
+# 🔐 AI-Powered Phishing Detection & Website Safety Analyzer
+
+A machine learning system that detects phishing websites in real-time 
+with **96.98% accuracy** — trained on 88,647 real URLs.
+
+## 🚀 Features
+- Detects phishing URLs using Random Forest classifier
+- Trained on 88,647 real-world URLs (58k legitimate + 30k phishing)
+- 112 URL-based features analyzed per site
+- Visual confusion matrix and feature importance charts
+- Model saved and ready for API deployment
+
+## 📊 Model Performance
+| Metric | Score |
+|--------|-------|
+| Accuracy | 96.98% |
+| Precision (Phishing) | 0.95 |
+| Recall (Phishing) | 0.96 |
+| F1-Score | 0.96 |
+
+## 🛠️ Tech Stack
+- Python, scikit-learn, pandas, numpy
+- Random Forest Classifier
+- Matplotlib & Seaborn for visualization
+- FastAPI (coming soon)
+- Chrome Extension (coming soon)
+
+## 📁 Project Structure
